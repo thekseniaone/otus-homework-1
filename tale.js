@@ -19,13 +19,13 @@ console.log(kolobok('тест'));
 
 
 function newYear(persName){
-if (persName == "Дед Мороз" || persName == "Снегурочка"){
-    return console.log(`${persName}! ${persName}! ${persName}!`)
+if (persName == 'Дед Мороз' || persName == 'Снегурочка'){
+    return `${persName}! ${persName}! ${persName}!`
 } else {
-    return console.log("нам такого не задавали, это мы еще не проходили");
+    return 'нам такого не задавали, это мы еще не проходили';
 }
 }
 
-newYear("Снегурочка");
-newYear("Дед Мороз");
-newYear("тест");
+console.log(newYear('Снегурочка'));
+console.log(newYear('Дед Мороз'));
+console.log(newYear('тест'));
