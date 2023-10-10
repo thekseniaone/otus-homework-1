@@ -1,20 +1,20 @@
 function kolobok(characterName) {
     switch(characterName) {
-        case 'дедушка': return console.log ('я от дедушки ушёл');
+        case 'дедушка': return 'я от дедушки ушёл';
         break;
-        case 'заяц': return console.log ('я от зайца ушёл')
+        case 'заяц': return 'я от зайца ушёл';
         break;
-        case 'лиса': return console.log ('меня съели');
+        case 'лиса': return 'меня съели';
         break;
-        default: return console.log('такого в сказке не было');
+        default: return 'такого в сказке не было';
 }
 return characterName;
 }
 
-kolobok('дедушка');
-kolobok('заяц');
-kolobok('лиса');
-kolobok('тест');
+console.log(kolobok('дедушка'));
+console.log(kolobok('заяц'));
+console.log(kolobok('лиса'));
+console.log(kolobok('тест'));
 
 
 
